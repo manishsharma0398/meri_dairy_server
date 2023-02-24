@@ -1,18 +1,22 @@
 {
-  "name": "dairy_farm_management_backend",
+  "name": "meri_dairy_server",
   "version": "1.0.0",
-  "description": "\"Backend for Dairy Farm Management System\"",
+  "description": "\"Backend for Meri Dairy (Farm Management System) \"",
   "main": "index.js",
-  "proxy": "http://localhost:5000/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishsharma0398/meri_dairy_server.git"
   },
   "author": "Manish Sharma",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.20"
+  "bugs": {
+    "url": "https://github.com/manishsharma0398/meri_dairy_server.git/issues"
   },
+  "homepage": "https://github.com/manishsharma0398/meri_dairy_server.git#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.32.0",
@@ -24,5 +28,8 @@
     "jsonwebtoken": "^8.5.1",
     "multer": "^1.4.5-lts.1",
     "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
